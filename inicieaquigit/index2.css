@@ -1,0 +1,65 @@
+body {
+   color: #ffffff; /* fonte */
+   background-color: gray; /* fundo */
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex; /* elementos da lista  um do lado outro*/
+    justify-content: space-between ; /* elementos da lista  um do lado outro*/
+    list-style-type: none; /* tirar marcadores*/
+    align-items: center ; /* verticalmente alinhando ao centro */
+    padding: 16px ; /* distanciamento da linha */
+   
+}
+
+a {
+    color: #ffffff; /* fonte de novo, pois ficou azul depois que lincou*/
+    text-decoration: none; /* tirar o sublinhado*/
+    color: pink;
+}
+
+header img /* são varias imagens, todas separadas por categoriuas*/
+{
+    width: 150px;  /* para estilizar a img*/
+    height: 150px; /* para estilizar a img*/
+    border-radius: 50%; /* borda redonda*/
+    border: 5px solid yellow ; /* borda lisa, sem traçado e a cor*/
+}
+
+.center {
+    text-align: center; /* para centralizar*/
+    
+}
+
+h2 {
+    color: white;
+}
+
+footer img {
+    width: 40px;  /* para estilizar a img*/
+    height: 40px; /* altura,  estilizar a img*/
+    border-radius: 50%; /* borda redonda*/
+    border: 5px; /* borda lisa, sem traçado e a cor*/
+}
+
+footer {
+    display: flex; /* elementos da lista  um do lado outro*/
+    justify-content: space-between ;
+    color: white;
+}
+
+footer a {
+    margin: 20px ; /* margem */
+    text-align: center; 
+}
+
+.container {
+    padding: 0px 50px ; 
+} 
+
+nav a :hover {
+    color: coral;
+}
+
+
